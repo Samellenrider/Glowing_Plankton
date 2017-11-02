@@ -8,12 +8,44 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var forcast: UIScrollView!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let url = URL(string: "http://magicseaweed.com/api/07fd1c1ad4c846ae075e719fc2de262a/forecast/?spot_id=91")
+        let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
+            if error != nil
+            {
+                print("Error mate")
+            }
+            else
+            {
+                if let content = data
+                {
+                 do
+                 {
+                    let myJson = try JSONSerialization.jsonObject(with: content, options: JSONSerialization.ReadingOptions.mutableContainers) as AnyObject
+                    print(myJson)
+                }
+                catch
+                {
+                 
+                }
+                    
+                }
+            }
+        }
+        task.resume()
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
