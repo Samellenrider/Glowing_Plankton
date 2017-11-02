@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url = URL(string: "http://magicseaweed.com/api/07fd1c1ad4c846ae075e719fc2de262a/forecast/?spot_id=91")
+        let url = URL(string: "http://magicseaweed.com/api/07fd1c1ad4c846ae075e719fc2de262a/forecast/?spot_id=91&&units=eu&fields=timestamp,swell.components.combined.height,swell.components.combined.period")
         let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
             if error != nil
             {
