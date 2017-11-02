@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CD0E9E51FAB6657003D9CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD0E9E41FAB6657003D9CC2 /* AppDelegate.swift */; };
+		0CD0E9E71FAB6657003D9CC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD0E9E61FAB6657003D9CC2 /* ViewController.swift */; };
+		0CD0E9EA1FAB6657003D9CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD0E9E81FAB6657003D9CC2 /* Main.storyboard */; };
+		0CD0E9EC1FAB6657003D9CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD0E9EB1FAB6657003D9CC2 /* Assets.xcassets */; };
+		0CD0E9EF1FAB6657003D9CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD0E9ED1FAB6657003D9CC2 /* LaunchScreen.storyboard */; };
+		0CD0E9FA1FAB6657003D9CC2 /* Glowing_PlanktonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD0E9F91FAB6657003D9CC2 /* Glowing_PlanktonTests.swift */; };
+		0CD0EA051FAB6657003D9CC2 /* Glowing_PlanktonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD0EA041FAB6657003D9CC2 /* Glowing_PlanktonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CD0E9F61FAB6657003D9CC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CD0E9D91FAB6657003D9CC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CD0E9E01FAB6657003D9CC2;
+			remoteInfo = "Glowing Plankton";
+		};
+		0CD0EA011FAB6657003D9CC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CD0E9D91FAB6657003D9CC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CD0E9E01FAB6657003D9CC2;
+			remoteInfo = "Glowing Plankton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD0E9E11FAB6657003D9CC2 /* Glowing Plankton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glowing Plankton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD0E9E41FAB6657003D9CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CD0E9E61FAB6657003D9CC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CD0E9E91FAB6657003D9CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CD0E9EB1FAB6657003D9CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CD0E9EE1FAB6657003D9CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CD0E9F01FAB6657003D9CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CD0E9F51FAB6657003D9CC2 /* Glowing PlanktonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glowing PlanktonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD0E9F91FAB6657003D9CC2 /* Glowing_PlanktonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glowing_PlanktonTests.swift; sourceTree = "<group>"; };
+		0CD0E9FB1FAB6657003D9CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CD0EA001FAB6657003D9CC2 /* Glowing PlanktonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glowing PlanktonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD0EA041FAB6657003D9CC2 /* Glowing_PlanktonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glowing_PlanktonUITests.swift; sourceTree = "<group>"; };
+		0CD0EA061FAB6657003D9CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CD0E9DE1FAB6657003D9CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD0E9F21FAB6657003D9CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD0E9FD1FAB6657003D9CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD0E9D81FAB6657003D9CC2 = {
+			isa = PBXGroup;
+			children = (
+				0CD0E9E31FAB6657003D9CC2 /* Glowing Plankton */,
+				0CD0E9F81FAB6657003D9CC2 /* Glowing PlanktonTests */,
+				0CD0EA031FAB6657003D9CC2 /* Glowing PlanktonUITests */,
+				0CD0E9E21FAB6657003D9CC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CD0E9E21FAB6657003D9CC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CD0E9E11FAB6657003D9CC2 /* Glowing Plankton.app */,
+				0CD0E9F51FAB6657003D9CC2 /* Glowing PlanktonTests.xctest */,
+				0CD0EA001FAB6657003D9CC2 /* Glowing PlanktonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CD0E9E31FAB6657003D9CC2 /* Glowing Plankton */ = {
+			isa = PBXGroup;
+			children = (
+				0CD0E9E41FAB6657003D9CC2 /* AppDelegate.swift */,
+				0CD0E9E61FAB6657003D9CC2 /* ViewController.swift */,
+				0CD0E9E81FAB6657003D9CC2 /* Main.storyboard */,
+				0CD0E9EB1FAB6657003D9CC2 /* Assets.xcassets */,
+				0CD0E9ED1FAB6657003D9CC2 /* LaunchScreen.storyboard */,
+				0CD0E9F01FAB6657003D9CC2 /* Info.plist */,
+			);
+			path = "Glowing Plankton";
+			sourceTree = "<group>";
+		};
+		0CD0E9F81FAB6657003D9CC2 /* Glowing PlanktonTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CD0E9F91FAB6657003D9CC2 /* Glowing_PlanktonTests.swift */,
+				0CD0E9FB1FAB6657003D9CC2 /* Info.plist */,
+			);
+			path = "Glowing PlanktonTests";
+			sourceTree = "<group>";
+		};
+		0CD0EA031FAB6657003D9CC2 /* Glowing PlanktonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CD0EA041FAB6657003D9CC2 /* Glowing_PlanktonUITests.swift */,
+				0CD0EA061FAB6657003D9CC2 /* Info.plist */,
+			);
+			path = "Glowing PlanktonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CD0E9E01FAB6657003D9CC2 /* Glowing Plankton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD0EA091FAB6657003D9CC2 /* Build configuration list for PBXNativeTarget "Glowing Plankton" */;
+			buildPhases = (
+				0CD0E9DD1FAB6657003D9CC2 /* Sources */,
+				0CD0E9DE1FAB6657003D9CC2 /* Frameworks */,
+				0CD0E9DF1FAB6657003D9CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Glowing Plankton";
+			productName = "Glowing Plankton";
+			productReference = 0CD0E9E11FAB6657003D9CC2 /* Glowing Plankton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CD0E9F41FAB6657003D9CC2 /* Glowing PlanktonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD0EA0C1FAB6657003D9CC2 /* Build configuration list for PBXNativeTarget "Glowing PlanktonTests" */;
+			buildPhases = (
+				0CD0E9F11FAB6657003D9CC2 /* Sources */,
+				0CD0E9F21FAB6657003D9CC2 /* Frameworks */,
+				0CD0E9F31FAB6657003D9CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CD0E9F71FAB6657003D9CC2 /* PBXTargetDependency */,
+			);
+			name = "Glowing PlanktonTests";
+			productName = "Glowing PlanktonTests";
+			productReference = 0CD0E9F51FAB6657003D9CC2 /* Glowing PlanktonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CD0E9FF1FAB6657003D9CC2 /* Glowing PlanktonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD0EA0F1FAB6657003D9CC2 /* Build configuration list for PBXNativeTarget "Glowing PlanktonUITests" */;
+			buildPhases = (
+				0CD0E9FC1FAB6657003D9CC2 /* Sources */,
+				0CD0E9FD1FAB6657003D9CC2 /* Frameworks */,
+				0CD0E9FE1FAB6657003D9CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CD0EA021FAB6657003D9CC2 /* PBXTargetDependency */,
+			);
+			name = "Glowing PlanktonUITests";
+			productName = "Glowing PlanktonUITests";
+			productReference = 0CD0EA001FAB6657003D9CC2 /* Glowing PlanktonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CD0E9D91FAB6657003D9CC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sam Ellenrieder";
+				TargetAttributes = {
+					0CD0E9E01FAB6657003D9CC2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					0CD0E9F41FAB6657003D9CC2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0CD0E9E01FAB6657003D9CC2;
+					};
+					0CD0E9FF1FAB6657003D9CC2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0CD0E9E01FAB6657003D9CC2;
+					};
+				};
+			};
+			buildConfigurationList = 0CD0E9DC1FAB6657003D9CC2 /* Build configuration list for PBXProject "Glowing Plankton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CD0E9D81FAB6657003D9CC2;
+			productRefGroup = 0CD0E9E21FAB6657003D9CC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CD0E9E01FAB6657003D9CC2 /* Glowing Plankton */,
+				0CD0E9F41FAB6657003D9CC2 /* Glowing PlanktonTests */,
+				0CD0E9FF1FAB6657003D9CC2 /* Glowing PlanktonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CD0E9DF1FAB6657003D9CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD0E9EF1FAB6657003D9CC2 /* LaunchScreen.storyboard in Resources */,
+				0CD0E9EC1FAB6657003D9CC2 /* Assets.xcassets in Resources */,
+				0CD0E9EA1FAB6657003D9CC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD0E9F31FAB6657003D9CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD0E9FE1FAB6657003D9CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CD0E9DD1FAB6657003D9CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD0E9E71FAB6657003D9CC2 /* ViewController.swift in Sources */,
+				0CD0E9E51FAB6657003D9CC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD0E9F11FAB6657003D9CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD0E9FA1FAB6657003D9CC2 /* Glowing_PlanktonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD0E9FC1FAB6657003D9CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD0EA051FAB6657003D9CC2 /* Glowing_PlanktonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CD0E9F71FAB6657003D9CC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CD0E9E01FAB6657003D9CC2 /* Glowing Plankton */;
+			targetProxy = 0CD0E9F61FAB6657003D9CC2 /* PBXContainerItemProxy */;
+		};
+		0CD0EA021FAB6657003D9CC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CD0E9E01FAB6657003D9CC2 /* Glowing Plankton */;
+			targetProxy = 0CD0EA011FAB6657003D9CC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CD0E9E81FAB6657003D9CC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CD0E9E91FAB6657003D9CC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CD0E9ED1FAB6657003D9CC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CD0E9EE1FAB6657003D9CC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CD0EA071FAB6657003D9CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CD0EA081FAB6657003D9CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CD0EA0A1FAB6657003D9CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "Glowing Plankton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Ellenrieder.Glowing-Plankton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CD0EA0B1FAB6657003D9CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "Glowing Plankton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Ellenrieder.Glowing-Plankton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CD0EA0D1FAB6657003D9CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "Glowing PlanktonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Ellenrieder.Glowing-PlanktonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glowing Plankton.app/Glowing Plankton";
+			};
+			name = Debug;
+		};
+		0CD0EA0E1FAB6657003D9CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "Glowing PlanktonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Ellenrieder.Glowing-PlanktonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glowing Plankton.app/Glowing Plankton";
+			};
+			name = Release;
+		};
+		0CD0EA101FAB6657003D9CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "Glowing PlanktonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Ellenrieder.Glowing-PlanktonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Glowing Plankton";
+			};
+			name = Debug;
+		};
+		0CD0EA111FAB6657003D9CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "Glowing PlanktonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Ellenrieder.Glowing-PlanktonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Glowing Plankton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CD0E9DC1FAB6657003D9CC2 /* Build configuration list for PBXProject "Glowing Plankton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD0EA071FAB6657003D9CC2 /* Debug */,
+				0CD0EA081FAB6657003D9CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CD0EA091FAB6657003D9CC2 /* Build configuration list for PBXNativeTarget "Glowing Plankton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD0EA0A1FAB6657003D9CC2 /* Debug */,
+				0CD0EA0B1FAB6657003D9CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CD0EA0C1FAB6657003D9CC2 /* Build configuration list for PBXNativeTarget "Glowing PlanktonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD0EA0D1FAB6657003D9CC2 /* Debug */,
+				0CD0EA0E1FAB6657003D9CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CD0EA0F1FAB6657003D9CC2 /* Build configuration list for PBXNativeTarget "Glowing PlanktonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD0EA101FAB6657003D9CC2 /* Debug */,
+				0CD0EA111FAB6657003D9CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CD0E9D91FAB6657003D9CC2 /* Project object */;
+}
