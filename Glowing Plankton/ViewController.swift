@@ -31,8 +31,12 @@ class ViewController: UIViewController {
                 {
                  do
                  {
-                    let myJson = try JSONSerialization.jsonObject(with: content, options: JSONSerialization.ReadingOptions.mutableContainers) as AnyObject
+                    let myJson = try? JSONSerialization.jsonObject(with: content, options: JSONSerialization.ReadingOptions.mutableContainers) //as AnyObject
                     print(myJson)
+//                    if let swell = myJson[""] as? NSDictionary
+//                    {
+//                        print(swell)
+//                    }
                 }
                 catch
                 {
